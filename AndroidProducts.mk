@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lavender.mk
+    $(LOCAL_DIR)/havoc_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lavender-user \
-    aosp_lavender-userdebug \
-    aosp_lavender-eng
+    havoc_lavender-user \
+    havoc_lavender-userdebug \
+    havoc_lavender-eng
