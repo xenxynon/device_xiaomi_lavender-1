@@ -8,3 +8,8 @@ genfscon sysfs /devices/virtual/graphics/fb1                    u:object_r:sysfs
 genfscon sysfs /devices/virtual/graphics/fb2                    u:object_r:sysfs_graphics:s0
 genfscon sysfs /devices/soc/soc:qcom,gpubw                      u:object_r:sysfs_devfreq:s0
 genfscon sysfs /devices/soc/soc:qcom,cpubw                      u:object_r:sysfs_devfreq:s0
+
+# Parts
+genfscon sysfs /sys/kernel/sound_control/headphone_gain                     u:object_r:sysfs_headgain:s0
+genfscon sysfs /sys/kernel/sound_control/mic_gain                           u:object_r:sysfs_micgain:s0
+genfscon sysfs /sys/class/graphics/fb0/measured_fps                         u:object_r:sysfs_fpsinfo:s0
