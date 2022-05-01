@@ -6,6 +6,7 @@
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
+include vendor/lawnchair/lawnchair.mk
 
 -include $(LOCAL_PATH)/vendor_prop.mk
 
